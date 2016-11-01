@@ -44,83 +44,84 @@
 
         <TextView
             android:text="@string/single_taps"
-            android:layout_width="124dp"
             android:layout_height="wrap_content"
             android:id="@+id/textView3"
             android:layout_row="0"
-            android:layout_column="0" />
-
-        <TextView
-            android:text="@string/zero"
-            android:layout_width="50dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/singleTapTextView"
-            android:layout_row="0"
-            android:layout_column="1" />
-
-        <TextView
-            android:text="@string/scrolls"
-            android:layout_width="124dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView"
-            android:layout_row="0"
-            android:layout_column="2" />
-
-        <TextView
-            android:text="@string/zero"
-            android:layout_width="50dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/scrollTextView"
-            android:layout_column="3"
-            android:layout_row="0" />
+            android:layout_column="0"
+            android:layout_columnWeight="1" />
 
         <TextView
             android:text="@string/double_taps"
-            android:layout_width="124dp"
             android:layout_height="wrap_content"
             android:id="@+id/textView5"
             android:layout_row="1"
-            android:layout_column="0" />
-
-        <TextView
-            android:text="@string/zero"
-            android:layout_width="50dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/doubleTapTextView"
-            android:layout_row="1"
-            android:layout_column="1" />
-
-        <TextView
-            android:text="@string/flings"
-            android:layout_width="124dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView7"
-            android:layout_row="1"
-            android:layout_column="2" />
-
-        <TextView
-            android:text="@string/zero"
-            android:layout_width="50dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/flingTextView"
-            android:layout_column="3"
-            android:layout_row="1" />
+            android:layout_column="0"
+            android:layout_columnWeight="1" />
 
         <TextView
             android:text="@string/long_presses"
-            android:layout_width="124dp"
             android:layout_height="wrap_content"
             android:id="@+id/textView9"
             android:layout_row="2"
-            android:layout_column="0" />
+            android:layout_column="0"
+            android:layout_columnWeight="1" />
 
         <TextView
             android:text="@string/zero"
-            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/singleTapTextView"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_columnWeight="1" />
+
+        <TextView
+            android:text="@string/zero"
+            android:layout_height="wrap_content"
+            android:id="@+id/doubleTapTextView"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1" />
+
+        <TextView
+            android:text="@string/zero"
             android:layout_height="wrap_content"
             android:id="@+id/longPressTextView"
             android:layout_row="2"
-            android:layout_column="1" />
+            android:layout_column="1"
+            android:layout_columnWeight="1" />
+
+        <TextView
+            android:text="@string/scrolls"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:layout_columnWeight="1" />
+
+        <TextView
+            android:text="@string/flings"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:layout_columnWeight="1" />
+
+        <TextView
+            android:text="@string/zero"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollTextView"
+            android:layout_column="3"
+            android:layout_row="0"
+            android:layout_columnWeight="1" />
+
+        <TextView
+            android:text="@string/zero"
+            android:layout_height="wrap_content"
+            android:id="@+id/flingTextView"
+            android:layout_column="3"
+            android:layout_row="1"
+            android:layout_columnWeight="1" />
+
     </GridLayout>
 
 </LinearLayout>
